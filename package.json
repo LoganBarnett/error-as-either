@@ -1,0 +1,21 @@
+{
+  "name": "error-as-either",
+  "version": "0.1.0",
+  "description": "Coerces thrown errors into `T | Error` as a return value.",
+  "main": "index.dist.js",
+  "repository": "git@github.com:LoganBarnett/error-as-either.git",
+  "author": "Logan Barnett <logustus@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel index.js -o index.dist.js && cp index.{js,dist.js.flow}",
+    "flow": "flow",
+    "test:type-check": "flow status",
+    "test:type-coverage": "flow-coverage-report report --config flow-coverage-config.json"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "flow-bin": "0.60.1"
+  }
+}
