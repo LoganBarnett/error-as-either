@@ -34,6 +34,8 @@ if(result instanceof Error) {
 
 # Types
 
+All types are expressed as [Flow](http://flow.org) types.
+
 This is the signature for `errorAsEither`:
 
 ``` javascript
