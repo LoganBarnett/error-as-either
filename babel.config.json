@@ -1,4 +1,4 @@
 {
   "plugins": [],
-  "presets": ["env", "react"]
+  "presets": ["@babel/preset-flow"]
 }
