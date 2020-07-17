@@ -1,6 +1,6 @@
 {
   "name": "error-as-either",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Coerces thrown errors into `T | Error` as a return value.",
   "main": "index.dist.js",
   "repository": "git@github.com:LoganBarnett/error-as-either.git",
